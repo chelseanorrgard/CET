@@ -46,7 +46,7 @@
 6.  **_QFD Matrix for the Hotel Room Reservation Application_**
 
 | Customer Requirements | Ease of Use | Performance (Speed) | Security | Scalability | Data Integrity |
-| --- | --- | --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | --- | 
 | View Available Rooms | ++ | + | - | + | + |
 | Search Rooms | ++ | ++ | + | + | ++ |
 | Make a Reservation | ++ | ++ | ++ | + | ++ |
