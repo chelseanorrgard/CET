@@ -16,7 +16,7 @@ Thanh Pham e2202775
 - Project Description: The Hotel Room Reservation Application is a web-based system designed to streamline hotel operations by providing dedicated views for administrators, customers, and receptionists. It enables efficient room management, improves the customer experience, and automates the reservation process.
 - Scope Statement: The project will include designing, developing, testing, and deploying the application using JavaScript and MongoDB. It will focus on providing core functionality to support hotel room reservations, customer account management, and staff operations.
 
-1. **Scope:**
+2. **Scope:**
 
 - Items in Scope:
   - Development of three distinct user views: Administrator, Customer, and Receptionist.
@@ -32,7 +32,7 @@ Thanh Pham e2202775
   - Limited development team and resources.
   - Compliance with data protection regulations such as GDPR.
 
-1. **Project Objectives:**
+3. **Project Objectives:**
 
 - Objectives:
 - Develop a user-friendly, web-based reservation system.
@@ -64,7 +64,7 @@ Thanh Pham e2202775
 - Timeline: The project must be completed by 05/12/2024.
 - Budget: Limited financial resources.
 
-1. **Project Estimates:**
+4. **Project Estimates:**
 
 - Historical Data:
   - Expected time spent on:
@@ -92,7 +92,7 @@ Thanh Pham e2202775
   - Hosting and Infrastructure: 200€/month × 2 months = 400€
   - Total Estimated Cost: 51200€
 
-1. **Project Risks:**
+5. **Project Risks:**
 
 - Risk Identification:
 - Delays due to technology limitations.
@@ -106,7 +106,7 @@ Thanh Pham e2202775
 - Risk Monitoring Procedures:
 - Weekly risk review meetings to assess current risks and mitigation strategies.
 
-1. **Communication Plan:**
+6. **Communication Plan:**
 
 - Stakeholders:
 - Project Manager: Oversees project execution and progress.
@@ -123,7 +123,7 @@ Thanh Pham e2202775
 - Weekly: Progress meetings (every Monday).
 - Monthly: Status report to sponsors and stakeholders.
 
-1. **Schedule:**
+7. **Schedule:**
 
 - Project Work Breakdown Structure (WBS):
 - Phase 1: Requirements Gathering.
@@ -138,7 +138,7 @@ Thanh Pham e2202775
 - Go-Live Date: 05.12.2024
 - Time-line Chart (Gantt Chart): A detailed Gantt chart will be created to show dependencies and deadlines.
 
-1. **Project Resources:**
+8. **Project Resources:**
 
 - Team Members:
   - Chelsea Norrgård – Project Manager
@@ -149,7 +149,7 @@ Thanh Pham e2202775
 - Special resources: Data compliance and security testing tools
 - Budget: 60000€
 
-1. **Staff Organization:**
+9. **Staff Organization:**
 
 - Team structure: While each team member has a dedicated role, everyone will take part in each stage of the application development process.
 - Management reporting:
@@ -158,7 +158,7 @@ Thanh Pham e2202775
   - Issue Tracking: Ongoing monitoring of identified issues and action plans for resolution.
   - Decision-Making Reports: Escalation of major decisions or scope changes to project sponsors as needed.
 
-1. **Tracking and Control Mechanisms:**
+10. **Tracking and Control Mechanisms:**
     - Tracking and Control Mechanisms:
     - Use of project management software for tracking progress.
     - Decision-Making Structure:
@@ -168,7 +168,7 @@ Thanh Pham e2202775
     - Key Performance Indicators (KPIs):
     - Delivery of milestones on schedule.
     - Bug rate during testing phase.
-2. **Closing Plan:**
+11. **Closing Plan:**
 
 - Project Closure:
 - Final deliverables, documentation, and code handover.
@@ -177,6 +177,6 @@ Thanh Pham e2202775
 - Post-Project Review:
 - Formal review meeting with stakeholders.
 
-1. **Appendices:**
+12. **Appendices:**
 
 - Placeholder for additional documentation, references, diagrams, or data that are relevant but do not fit into the main sections (THESE WILL BE ADDED AT A LATER DATE).
