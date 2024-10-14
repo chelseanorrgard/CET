@@ -55,7 +55,7 @@
 | Manage Reservations | ++ | + | ++ | + | ++ |
 | Add Room Data | + | + | + | ++ | ++ |
 | Modify Room Data | + | + | + | ++ | ++ |
-| View Reservations | View Reservations |  | ++ | + | + | + | ++ |
+| View Reservations | ++ | + | + | + | ++ |
 | Check-in/Check-out Management | ++ | + | ++ | + | ++ |
 | Authentication for Users | + | + | ++ | + | ++ |
 | Handle Data Persistence | + | + | ++ | ++ | ++ |
