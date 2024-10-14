@@ -62,4 +62,4 @@
 
 \+ is Medium
 
--  is Weak
+\- is Weak
