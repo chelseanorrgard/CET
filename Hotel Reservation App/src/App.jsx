@@ -1,14 +1,17 @@
 import './App.css'
-
+import { Outlet } from 'react-router-dom';
+import Navbar from './components/Navbar';
+import { AuthProvider } from './context/AuthContext';
 function App() {
-
-
   return (
     <>
-      <h1 className="text-3xl font-bold underline text-center">
-      Hello world!
-    </h1>
-      
+    <AuthProvider>
+    <Navbar/>
+    <main className='min-h-screen max-w-screen-2xl mx-auto px-4 py-6'>
+      <Outlet/>
+    </main>
+    <footer>Footer</footer>
+    </AuthProvider>
     </>
   )
 }
