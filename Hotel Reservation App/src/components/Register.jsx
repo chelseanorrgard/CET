@@ -18,7 +18,8 @@ const Register = () => {
     console.log(data)
     try {
         await registerUser(data.email, data.password);
-        alert("User registered successfully!")
+        alert("User registered successfully!");
+        navigate("/login");
     } catch (error) {
        setMessage("Please provide a valid email and password") 
        console.error(error)
@@ -28,7 +29,7 @@ const Register = () => {
   const handleGoogleSignIn = async() => {
     try {
         await signInWithGoogle();
-        alert("Login successful!");
+        alert("Registered successful!");
         navigate("/")
     } catch (error) {
         alert("Google sign in failed!") 

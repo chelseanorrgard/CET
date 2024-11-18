@@ -1,0 +1,44 @@
+[
+  {
+    "_id":1,
+    "title": "Hotel Arthur 1",
+    "description":"Art Deco Style, Indoor Pool and Whirlpool",
+    "image":"/Hotel Reservation App/public/hotel1.avif",
+    "price":400
+  },
+  {
+    "_id":2,
+    "title": "Hotel Arthur 2",
+    "description":"Art Deco Style, Indoor Pool and Whirlpool",
+    "image":"/Hotel Reservation App/public/hotel1.avif",
+    "price":500
+  },
+  {
+    "_id":3,
+    "title": "Hotel Arthur 3",
+    "description":"Art Deco Style, Indoor Pool and Whirlpool",
+    "image":"/Hotel Reservation App/public/hotel1.avif",
+    "price":700
+  },
+  {
+    "_id":4,
+    "title": "Hotel Arthur 4",
+    "description":"Art Deco Style, Indoor Pool and Whirlpool",
+    "image":"/Hotel Reservation App/public/hotel1.avif",
+    "price":800
+  },
+  {
+    "_id":5,
+    "title": "Hotel Arthur 5",
+    "description":"Art Deco Style, Indoor Pool and Whirlpool",
+    "image":"/Hotel Reservation App/public/hotel1.avif",
+    "price":900
+  },
+  {
+    "_id":1,
+    "title": "Hotel Arthur",
+    "description":"Art Deco Style, Indoor Pool and Whirlpool",
+    "image":"/Hotel Reservation App/public/hotel1.avif",
+    "price":1000
+  }
+]

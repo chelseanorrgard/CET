@@ -1,10 +1,5 @@
-import { configureStore } from '@reduxjs/toolkit';
-
-const placeholderReducer = (state = {}) => state; // Simple dummy reducer
+import { configureStore } from '@reduxjs/toolkit'
 
 export const store = configureStore({
-  reducer: {
-    placeholder: placeholderReducer,
-  },
-  devTools: true, // Explicitly enable DevTools
-});
+  reducer: {},
+})
