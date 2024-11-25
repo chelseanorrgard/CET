@@ -1,19 +1,19 @@
 const mongoose = require('mongoose')
 
 const roomSchema = new mongoose.Schema({
-  title:{
+  room_type:{
     type:String,
     required:true,
   },
-  description:{
+  amenities:{
+    type:[String],
+    required:true,
+  },
+  photos:{
     type:String,
     required:true,
   },
-  image:{
-    type:String,
-    required:true,
-  },
-  price:Number,
+  price_per_night:Number,
   createdAt:{
     type:Date,
     default:Date.now,
