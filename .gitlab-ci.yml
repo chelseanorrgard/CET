@@ -1,0 +1,59 @@
+stages:
+  - build
+  - test
+  - deploy
+
+# Job to build the frontend (Node.js)
+frontend_build:
+  stage: build
+  image: node:18
+  script:
+    - cd frontend
+    - npm install
+    - npm run build
+  artifacts:
+    paths:
+      - frontend/dist
+
+# Job to build the backend (Java with Maven)
+backend_build:
+  stage: build
+  image: maven:3.8.1-openjdk-11
+  script:
+    - cd backend
+    - mvn clean install
+  artifacts:
+    paths:
+      - backend/target/backend-app-1.0-SNAPSHOT.jar
+
+# Job to test the frontend (Node.js)
+frontend_test:
+  stage: test
+  image: node:18
+  script:
+    - cd frontend
+    - npm test
+
+# Job to test the backend (Java with Maven)
+backend_test:
+  stage: test
+  image: maven:3.8.1-openjdk-11
+  script:
+    - cd backend
+    - mvn test
+
+# Job to deploy frontend (example: deploy to a server or hosting service)
+frontend_deploy:
+  stage: deploy
+  script:
+    - echo "Deploying frontend..."
+    - echo "Add deployment commands for your frontend"
+    # For example, deploy React app using Vite, for now, just print a message
+
+# Job to deploy backend (example: deploy to a server)
+backend_deploy:
+  stage: deploy
+  script:
+    - echo "Deploying backend..."
+    - echo "Add deployment commands for your backend"
+    # Add actual deployment commands for backend here

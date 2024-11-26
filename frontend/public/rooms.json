@@ -1,0 +1,227 @@
+{
+  "hotel_name": "CET Hotel",
+  "location": "123 Main Street, Las Vegas",
+  "rooms": [
+    {
+      "room_id": 1,
+      "room_type": "Single",
+      "beds": 1,
+      "occupancy": 1,
+      "price_per_night": 100,
+      "photos": [
+        "single-1.jpg"
+        
+      ],
+      "amenities": ["Free WiFi", "Air Conditioning", "TV"]
+    },
+    {
+      "room_id": 2,
+      "room_type": "Single",
+      "beds": 1,
+      "occupancy": 1,
+      "price_per_night": 105,
+      "photos": [
+        "single-2.jpg"
+      ],
+      "amenities": ["Free WiFi", "Air Conditioning", "TV"]
+    },
+    {
+      "room_id": 3,
+      "room_type": "Double",
+      "beds": 2,
+      "occupancy": 2,
+      "price_per_night": 120,
+      "photos": [
+        "double-1.jpg"
+      ],
+      "amenities": ["Free WiFi", "Air Conditioning", "TV", "Mini Bar"]
+    },
+    {
+      "room_id": 4,
+      "room_type": "Double",
+      "beds": 2,
+      "occupancy": 2,
+      "price_per_night": 125,
+      "photos": [
+        "double-2.jpg"
+      ],
+      "amenities": ["Free WiFi", "Air Conditioning", "TV", "Mini Bar"]
+    },
+    {
+      "room_id": 5,
+      "room_type": "Suite",
+      "beds": 1,
+      "occupancy": 3,
+      "price_per_night": 200,
+      "photos": [
+        "suite-1.jpg"
+      ],
+      "amenities": ["Free WiFi", "Air Conditioning", "TV", "Mini Bar", "Balcony"]
+    },
+    {
+      "room_id": 6,
+      "room_type": "Suite",
+      "beds": 1,
+      "occupancy": 3,
+      "price_per_night": 210,
+      "photos": [
+        "suite-2.jpg"
+      ],
+      "amenities": ["Free WiFi", "Air Conditioning", "TV", "Mini Bar", "Balcony"]
+    },
+    {
+      "room_id": 7,
+      "room_type": "Single",
+      "beds": 1,
+      "occupancy": 1,
+      "price_per_night": 95,
+      "photos": [
+       "single-3.jpg"
+      ],
+      "amenities": ["Free WiFi", "TV"]
+    },
+    {
+      "room_id": 8,
+      "room_type": "Double",
+      "beds": 2,
+      "occupancy": 2,
+      "price_per_night": 130,
+      "photos": [
+        "double-3.jpg"
+      ],
+      "amenities": ["Free WiFi", "Air Conditioning", "TV", "Coffee Maker"]
+    },
+    {
+      "room_id": 9,
+      "room_type": "Single",
+      "beds": 1,
+      "occupancy": 1,
+      "price_per_night": 98,
+      "photos": [
+        "single-4.png"
+      ],
+      "amenities": ["Free WiFi", "TV"]
+    },
+    {
+      "room_id": 10,
+      "room_type": "Suite",
+      "beds": 2,
+      "occupancy": 4,
+      "price_per_night": 220,
+      "photos": [
+        "suite-3.jpg"
+      ],
+      "amenities": ["Free WiFi", "Air Conditioning", "TV", "Mini Bar", "Jacuzzi"]
+    },
+    {
+      "room_id": 11,
+      "room_type": "Double",
+      "beds": 2,
+      "occupancy": 2,
+      "price_per_night": 140,
+      "photos": [
+        "double-4.jpg"
+      ],
+      "amenities": ["Free WiFi", "Air Conditioning", "TV", "Coffee Maker"]
+    },
+    {
+      "room_id": 12,
+      "room_type": "Single",
+      "beds": 1,
+      "occupancy": 1,
+      "price_per_night": 92,
+      "photos": [
+        "single-5.jpg"
+      ],
+      "amenities": ["Free WiFi", "TV"]
+    },
+    {
+      "room_id": 13,
+      "room_type": "Double",
+      "beds": 2,
+      "occupancy": 2,
+      "price_per_night": 145,
+      "photos": [
+        "double-5.jpg"
+      ],
+      "amenities": ["Free WiFi", "Air Conditioning", "TV", "Mini Bar"]
+    },
+    {
+      "room_id": 14,
+      "room_type": "Suite",
+      "beds": 1,
+      "occupancy": 3,
+      "price_per_night": 230,
+      "photos": [
+        "suite-4.jpg"
+      ],
+      "amenities": ["Free WiFi", "Air Conditioning", "TV", "Mini Bar", "Balcony"]
+    },
+    {
+      "room_id": 15,
+      "room_type": "Single",
+      "beds": 1,
+      "occupancy": 1,
+      "price_per_night": 99,
+      "photos": [
+        "single-6.jpg"
+      ],
+      "amenities": ["Free WiFi", "TV"]
+    },
+    {
+      "room_id": 16,
+      "room_type": "Double",
+      "beds": 2,
+      "occupancy": 2,
+      "price_per_night": 135,
+      "photos": [
+        "double-6.jpg"
+      ],
+      "amenities": ["Free WiFi", "Air Conditioning", "TV", "Coffee Maker"]
+    },
+    {
+      "room_id": 17,
+      "room_type": "Double",
+      "beds": 2,
+      "occupancy": 2,
+      "price_per_night": 138,
+      "photos": [
+        "double-7.jpg"
+      ],
+      "amenities": ["Free WiFi", "Air Conditioning", "TV", "Coffee Maker"]
+    },
+    {
+      "room_id": 18,
+      "room_type": "Suite",
+      "beds": 1,
+      "occupancy": 3,
+      "price_per_night": 250,
+      "photos": [
+        "suit-5.jpg"
+      ],
+      "amenities": ["Free WiFi", "Air Conditioning", "TV", "Mini Bar", "Jacuzzi", "Balcony"]
+    },
+    {
+      "room_id": 19,
+      "room_type": "Single",
+      "beds": 1,
+      "occupancy": 1,
+      "price_per_night": 94,
+      "photos": [
+        "single-7.jpg"
+      ],
+      "amenities": ["Free WiFi", "TV"]
+    },
+    {
+      "room_id": 20,
+      "room_type": "Double",
+      "beds": 2,
+      "occupancy": 2,
+      "price_per_night": 150,
+      "photos": [
+        "double-8.avif"
+      ],
+      "amenities": ["Free WiFi", "Air Conditioning", "TV", "Mini Bar", "Coffee Maker"]
+    }
+  ]
+}

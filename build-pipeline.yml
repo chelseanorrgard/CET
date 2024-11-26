@@ -1,0 +1,49 @@
+trigger:
+- main
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+variables:
+  imageNameFrontend: 'chelseanorrgard/frontend-image'
+  imageNameBackend: 'chelseanorrgard/backend-image'
+
+stages:
+  - stage: Build
+    jobs:
+      - job: FrontendBuild
+        steps:
+          - task: Docker@2
+            inputs:
+              command: build
+              Dockerfile: frontend/Dockerfile
+              containerName: frontend-container
+              tags: |
+                $(Build.BuildId)
+              arguments: '-t $(imageNameFrontend):$(Build.BuildId)'
+
+          - task: Docker@2
+            inputs:
+              command: push
+              containerName: frontend-container
+              tags: |
+                $(Build.BuildId)
+
+      - job: BackendBuild
+        steps:
+          - task: Docker@2
+            inputs:
+              command: build
+              Dockerfile: backend/Dockerfile
+              containerName: backend-container
+              tags: |
+                $(Build.BuildId)
+              arguments: '-t $(imageNameBackend):$(Build.BuildId)'
+
+          - task: Docker@2
+            inputs:
+              command: push
+              containerName: backend-container
+              tags: |
+                $(Build.BuildId)
+

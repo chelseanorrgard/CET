@@ -6,8 +6,6 @@ Elif Turhan e2302243
 
 Thanh Pham e2202775
 
-<https://github.com/chelseanorrgard/CET>
-
 1. **Project Overview**:
 
 - Project Name: Hotel Room Reservation Application

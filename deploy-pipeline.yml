@@ -1,0 +1,44 @@
+trigger:
+- main
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+variables:
+  imageNameFrontend: 'chelseanorrgard/frontend-image'
+  imageNameBackend: 'chelseanorrgard/backend-image'
+
+stages:
+  - stage: Deploy
+    jobs:
+      - job: FrontendDeploy
+        steps:
+          - task: Docker@2
+            inputs:
+              command: login
+              containerRegistry: 'your-container-registry'
+              username: '$(dockerUsername)'
+              password: '$(dockerPassword)'
+
+          - task: Docker@2
+            inputs:
+              command: run
+              containerName: frontend-container
+              imageName: $(imageNameFrontend):$(Build.BuildId)
+              ports: '3000:3000'
+
+      - job: BackendDeploy
+        steps:
+          - task: Docker@2
+            inputs:
+              command: login
+              containerRegistry: 'your-container-registry'
+              username: '$(dockerUsername)'
+              password: '$(dockerPassword)'
+
+          - task: Docker@2
+            inputs:
+              command: run
+              containerName: backend-container
+              imageName: $(imageNameBackend):$(Build.BuildId)
+              ports: '8080:8080'
